@@ -1,0 +1,3 @@
+jablko, mela
+ksiazka, libro
+kot, gatto

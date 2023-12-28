@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="299.0" prefWidth="350.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.tpo_5_1.HelloController">
+   <children>
+      <Button fx:id="btn_SendMessage" layoutX="245.0" layoutY="76.0" mnemonicParsing="false" onAction="#sendMessage" text="Send Message" />
+      <TextField fx:id="tf_MessageToSend" layoutX="23.0" layoutY="34.0" onAction="#sendMessage" prefHeight="68.0" prefWidth="206.0" />
+      <Label layoutX="23.0" layoutY="14.0" text="Message to send" />
+      <Label layoutX="23.0" layoutY="110.0" text="Chat history" />
+      <Button layoutX="245.0" layoutY="259.0" mnemonicParsing="false" text="Clear chat" onAction="#clearChatMessages" />
+      <TextArea fx:id="ta_Chat_Messages" editable="false" layoutX="23.0" layoutY="132.0" prefHeight="156.0" prefWidth="206.0" wrapText="true" />
+   </children>
+</AnchorPane>

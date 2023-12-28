@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="194.0" prefWidth="400.0" xmlns="http://javafx.com/javafx/11.0.14-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="zad1.tpo3_km_s20202.HelloController">
+   <children>
+      <Button fx:id="addButton" layoutX="236.0" layoutY="35.0" mnemonicParsing="false" onAction="#addNewTopic" text="Add" />
+      <Label layoutX="25.0" layoutY="39.0" text="Add" />
+      <TextField fx:id="addTF" layoutX="75.0" layoutY="35.0" />
+      <Button fx:id="removeButton" layoutX="236.0" layoutY="75.0" mnemonicParsing="false" onAction="#removeNewTopic" text="Remove" />
+      <TextField fx:id="removeTF" layoutX="75.0" layoutY="75.0" />
+      <Label layoutX="25.0" layoutY="78.0" text="Remove" />
+      <Button fx:id="newsButton" layoutX="327.0" layoutY="151.0" mnemonicParsing="false" onAction="#addNewNewsAboutTopic" text="Add news" />
+      <TextField fx:id="newsTF" layoutX="75.0" layoutY="124.0" prefHeight="54.0" prefWidth="241.0" />
+      <Button layoutX="327.0" layoutY="35.0" mnemonicParsing="false" onAction="#handleCloseButtonAction" text="Bye" />
+      <Label layoutX="25.0" layoutY="130.0" text="News" />
+   </children>
+</AnchorPane>

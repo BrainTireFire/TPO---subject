@@ -1,0 +1,3 @@
+jablko, apple
+ksiazka, book
+kot, cat

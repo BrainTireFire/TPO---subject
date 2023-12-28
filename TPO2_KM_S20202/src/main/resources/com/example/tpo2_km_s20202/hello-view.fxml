@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="506.0" prefWidth="586.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.tpo2_km_s20202.HelloController">
+    <TextField fx:id="textField" layoutX="29.0" layoutY="60.0" prefHeight="25.0" prefWidth="155.0" />
+
+    <Label fx:id="welcomeText" />
+    <Button layoutX="49.0" layoutY="279.0" onAction="#translateTheWord" text="Transalte the word" />
+    <TextField fx:id="addNewLanguangeTF" layoutX="23.0" layoutY="368.0" prefHeight="25.0" prefWidth="155.0" />
+    <Button layoutX="190.0" layoutY="368.0" onAction="#addNewLanguange" text="Add new Language!" />
+   <Label layoutX="35.0" layoutY="34.0" text="Tranlator" />
+   <Label layoutX="23.0" layoutY="91.0" text="(Type the word to the translate)" />
+   <Label layoutX="29.0" layoutY="347.0" text="Add new languange" />
+   <Label layoutX="17.0" layoutY="404.0" text="(Type the short name of language, also you need to add txt file with words)" />
+   <Label layoutX="17.0" layoutY="114.0" text="Currently are avaiable languages: " />
+   <ListView fx:id="listOfLanguange" layoutX="29.0" layoutY="137.0" prefHeight="105.0" prefWidth="155.0" />
+   <TextField fx:id="textFliedTranslated" editable="false" layoutX="240.0" layoutY="60.0" />
+   <Label layoutX="242.0" layoutY="34.0" text="Translated word" />
+   <Label layoutX="17.0" layoutY="252.0" text="(Select language then press the button &quot;Transalte the word&quot;)" />
+</AnchorPane>

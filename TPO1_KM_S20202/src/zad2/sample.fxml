@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.web.*?>
+
+<AnchorPane prefHeight="869.0" prefWidth="1336.0" xmlns="http://javafx.com/javafx/11.0.14-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="zad2.Controller">
+   <children>
+      <WebView fx:id="webView" layoutY="76.0" prefHeight="800.0" prefWidth="1336.0" />
+      <Button layoutX="224.0" layoutY="52.0" mnemonicParsing="false" onAction="#handleNewData" text="Change Data" />
+
+      <TextField fx:id="countryField" layoutX="75.0" layoutY="2.0" prefHeight="25.0" prefWidth="149.0" />
+      <TextField fx:id="cityField" layoutX="75.0" layoutY="27.0" />
+      <TextField fx:id="currencyField" layoutX="75.0" layoutY="52.0" />
+
+      <TextArea fx:id="weatherTextArea" layoutX="414.0" layoutY="4.0" prefHeight="67.0" prefWidth="293.0" />
+      <TextArea fx:id="currencyTextArea" layoutX="790.0" layoutY="21.0" prefHeight="38.0" prefWidth="140.0" />
+      <TextArea fx:id="nbpTextArea" layoutX="1080.0" layoutY="18.0" prefHeight="38.0" prefWidth="85.0" />
+
+      <Label layoutX="22.0" layoutY="6.0" text="Country" />
+      <Label layoutX="22.0" layoutY="31.0" text="City" />
+      <Label layoutX="22.0" layoutY="56.0" text="Currency" />
+      <Label layoutX="352.0" layoutY="28.0" prefHeight="17.0" prefWidth="47.0" text="Weather" />
+      <Label layoutX="727.0" layoutY="30.0" text="Currency" />
+      <Label layoutX="1026.0" layoutY="31.0" text="NBP" />
+
+   </children>
+</AnchorPane>

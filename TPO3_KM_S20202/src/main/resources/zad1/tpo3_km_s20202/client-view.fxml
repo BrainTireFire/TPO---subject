@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="194.0" prefWidth="400.0" xmlns="http://javafx.com/javafx/11.0.14-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="zad1.tpo3_km_s20202.ClientController">
+   <children>
+      <Button fx:id="subButton" layoutX="236.0" layoutY="35.0" mnemonicParsing="false" onAction="#subTopic" text="Sub" />
+      <Label layoutX="25.0" layoutY="39.0" text="Sub" />
+      <TextField fx:id="subTF" layoutX="75.0" layoutY="35.0" />
+      <Button fx:id="unsubButton" layoutX="236.0" layoutY="75.0" mnemonicParsing="false" onAction="#unsubTopic" text="Unsub" />
+      <TextField fx:id="unsubTF" layoutX="75.0" layoutY="75.0" />
+      <Label layoutX="25.0" layoutY="78.0" text="Unsub" />
+      <Button layoutX="238.0" layoutY="117.0" mnemonicParsing="false" onAction="#showTopic" text="Show" />
+      <Label fx:id="topicsLabel" layoutX="71.0" layoutY="120.0" prefHeight="18.0" prefWidth="157.0" text="Label" />
+      <Button layoutX="317.0" layoutY="154.0" mnemonicParsing="false" onAction="#updateNewsOfTopic" prefHeight="26.0" prefWidth="69.0" text="Update" />
+      <Label fx:id="newsUpdateLabel" layoutX="42.0" layoutY="158.0" prefHeight="18.0" prefWidth="258.0" text="Label" />
+      <Button layoutX="326.0" layoutY="26.0" mnemonicParsing="false" text="Bye" onAction="#handleCloseButtonAction"  />
+   </children>
+</AnchorPane>
